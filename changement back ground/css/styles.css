@@ -1,0 +1,50 @@
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    margin: 0;
+    transition: background 1s linear;
+}
+
+.btn{
+    display: flex;
+    color: #eee;
+    font-size: 2rem;
+    padding: 25px;
+    margin: 5px;
+    border-radius: 50px;
+    border-style: none;
+}
+
+#red{
+    background-color: red;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#green{
+    background-color: rgb(0,255,0);
+}
+
+#white{
+    background-color: #fff;
+}
+
+#dark{
+    background-color: rgb(0,0,0);
+}
+
+.color{
+    display: flex;
+    justify-content: center;
+
+}
+
+.coulour{
+    font-size: 50px;
+    color: #eee;
+    border-radius: 50px;
+    background-color: #373737;
+    padding: 50px;
+}

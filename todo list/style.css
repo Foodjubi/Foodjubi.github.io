@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(54, 101, 167);
+}
+
+body .container{
+    background-color: rgb(126, 110, 211);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+} 
+
+body .input{
+    border-radius: 50px;
+    background-color: rgb(166, 123, 58);
+    color: black;
+    padding: 10px;
+}
+
+body .list{
+    border-radius: 50px;
+    background-color: rgb(166, 123, 58);
+    color: black;
+    padding: 10px;
+    margin: 5px;
+}
+
+body #list{
+    border-radius: 15px;
+    background-color: rgb(168, 182, 43);
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    list-style-type: none;
+}
