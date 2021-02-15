@@ -1,0 +1,11 @@
+{
+  "name": "spacex",
+  "version": "1.0.0",
+  "description": "Site web SpaceX qui est créer avec scss",
+  "main": "index.js",
+  "scripts": {
+    "sass":"sass --watch ./main.scss:./style.css"
+  },
+  "author": "Foodjubi",
+  "license": "ISC"
+}
