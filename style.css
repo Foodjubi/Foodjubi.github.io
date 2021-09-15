@@ -14,10 +14,12 @@ body{
     background-color: #383838;
     font-family: 'Poppins', sans-serif;
     height: 100%;
+    display: flex;
     width: 100%;
 }
 
 .content{
+    text-align: justify;
     color: #09FBBA;
     transition: 1s;
     height: 100vh;
@@ -119,3 +121,27 @@ a:hover{
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.contact{
+    height: 100%;
+}
+
+.tcontact{
+    border: 2px solid #08FBBA;
+    margin-top: 40px;
+    margin-right: 40px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #08FBBA;
+    color: #292929;
+    font-size: 20px;
+    transition: 0.4s ease;
+}
+
+.tcontact:hover{
+    box-shadow: inset 0 0 0 50px darkcyan, 1px 1px 3px #333;
+    transform: translateX(4px);
+    color: #eee
+}
